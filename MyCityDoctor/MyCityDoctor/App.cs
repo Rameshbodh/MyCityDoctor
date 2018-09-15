@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using Xamarin.Forms;
+using Xam  arin.Forms;
 
 namespace MyCityDoctor
 {
@@ -12,26 +12,11 @@ namespace MyCityDoctor
         public App()
         {
             // The root page of your application
-            MainPage = new ContentPage
-            {
-                Content = new StackLayout
-                {
-                    VerticalOptions = LayoutOptions.Center,
-                    Children = {
-                        new Label {
-                            HorizontalTextAlignment = TextAlignment.Center,
-                            Text = "Welcome to Xamarin Forms!"
-                        }
-                    }
-                }
-            };
         }
-
         protected override void OnStart()
         {
             // Handle when your app starts
         }
-
         protected override void OnSleep()
         {
             // Handle when your app sleeps
